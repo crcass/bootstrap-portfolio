@@ -1,0 +1,81 @@
+body {
+	background-image: url("../../assets/images/funky-lines.png");
+}
+
+.head {
+	max-width: 960px;
+}
+
+/* General */
+
+.content {
+	margin-top: 8rem;
+	margin-bottom: 16rem;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	max-width: 960px;
+	padding-bottom: 4rem;
+}
+
+/* Header */
+
+.navbar-default .navbar-brand {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 29px;
+}
+
+/* About Me */
+
+
+
+/* Portfolio */
+
+.portfolio {
+	height: 14rem;
+
+}
+
+#hangman {
+	background-image: url(../../assets/images/abstract2.jpg);
+	background-size: cover;
+}
+
+#rpg {
+	background-image: url(../../assets/images/abstract3.jpg);
+	background-size: cover;
+}
+
+#trivia {
+	background-image: url(../../assets/images/abstract6.jpg);
+	background-size: cover;
+}
+
+#widget {
+	background-image: url(../../assets/images/abstract7.jpg);
+	background-size: cover;
+}
+
+#rock {
+	background-image: url(../../assets/images/abstract9.jpg);
+	background-size: cover;
+}
+
+/* Contact */
+
+/*form {
+	padding-bottom: 2rem;
+}*/
+
+button {
+	margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+	color: #fff;
+}
