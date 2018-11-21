@@ -44,7 +44,7 @@ img:hover {
 /* Header */
 
 nav {
-	border: 1px solid #e6eaea;
+	border-bottom: 1px solid #e6eaea;
 	background-color: #fff;
 	opacity: 0.95;
 }
