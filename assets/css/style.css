@@ -46,6 +46,7 @@ img:hover {
 nav {
 	border: 1px solid #e6eaea;
 	background-color: #fff;
+	opacity: 0.95;
 }
 
 .navbar {
@@ -102,6 +103,10 @@ p {
 .portfolio-content {
 	position: relative;
 	width: 100%;
+}
+
+.portfolio a {
+	color: #fff;
 }
 
 h5 {
