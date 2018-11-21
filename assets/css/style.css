@@ -1,6 +1,6 @@
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 
 body {
@@ -28,9 +28,9 @@ body {
 h1 {
 	margin-left: 1rem;
 	margin-right: 1rem;
-    padding: 1rem 0;
-    border-bottom: 3px solid #ccc;
-    color: #4aaaa5;
+	padding: 1rem 0;
+	border-bottom: 3px solid #ccc;
+	color: #4aaaa5;
 }
 
 img {
@@ -60,8 +60,8 @@ nav button {
 }
 
 .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
  }
 
 .navbar-light .navbar-brand {
@@ -81,6 +81,7 @@ nav button {
 
 #author {
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	filter: saturate(100%);
 }
 
@@ -111,13 +112,13 @@ p {
 
 h5 {
 	position: absolute;
-    top: 80%;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #4aaaa5;
-    width: 100%;
-    padding: 1rem 0;
+	top: 80%;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #4aaaa5;
+	width: 100%;
+	padding: 1rem 0;
 }
 
 h5:hover {
@@ -152,9 +153,9 @@ footer {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  line-height: 60px;
-  background-color: #666;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 60px;
+	background-color: #666;
 }
