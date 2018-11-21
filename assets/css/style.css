@@ -1,5 +1,12 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
 	background-image: url("../../assets/images/funky-lines.png");
+	margin-bottom: 60px;
+	color: #777;
 }
 
 .head {
@@ -10,72 +17,139 @@ body {
 
 .content {
 	margin-top: 8rem;
-	margin-bottom: 16rem;
+	margin-bottom: 8rem;
 	background-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	max-width: 960px;
 	padding-bottom: 4rem;
+	border-bottom: 1px solid #ccc;
+}
+
+h1 {
+	margin-left: 1rem;
+	margin-right: 1rem;
+    padding: 1rem 0;
+    border-bottom: 3px solid #ccc;
+    color: #4aaaa5;
+}
+
+img {
+	filter: saturate(90%);
+}
+
+img:hover {
+	filter: saturate(100%);
 }
 
 /* Header */
 
-.navbar-default .navbar-brand {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 32px;
-	font-weight: bold;
-	color: white;
+nav {
+	border: 1px solid #e6eaea;
+	background-color: #fff;
+}
+
+.navbar {
+	padding: 0;
+}
+
+nav button {
+	margin-right: 1.5rem;
+	margin-bottom: 1rem;
+	margin: 1rem 1.5rem 1rem 0;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+ }
+
+.navbar-light .navbar-brand {
 	background-color: #4aaaa5;
-	padding: 29px;
+	color: #fff;
+	height: 100%;
+	padding: 1.2rem;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #4aaaa5;
 }
 
 /* About Me */
 
+#author {
+	margin-top: 1rem;
+	filter: saturate(100%);
+}
 
+p {
+	margin-top: 1rem;
+}
 
 /* Portfolio */
 
+.row {
+	margin: 1.5rem 0.2rem;
+}
+
 .portfolio {
-	height: 14rem;
-
+	position: relative;
+	color: #fff;
+	text-align: center;
 }
 
-#hangman {
-	background-image: url(../../assets/images/abstract2.jpg);
-	background-size: cover;
+.portfolio-content {
+	position: relative;
+	width: 100%;
 }
 
-#rpg {
-	background-image: url(../../assets/images/abstract3.jpg);
-	background-size: cover;
+h5 {
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 100%;
+    padding: 1rem 0;
 }
 
-#trivia {
-	background-image: url(../../assets/images/abstract6.jpg);
-	background-size: cover;
-}
-
-#widget {
-	background-image: url(../../assets/images/abstract7.jpg);
-	background-size: cover;
-}
-
-#rock {
-	background-image: url(../../assets/images/abstract9.jpg);
-	background-size: cover;
+h5:hover {
+	background-color: #377f7c;
 }
 
 /* Contact */
 
-/*form {
-	padding-bottom: 2rem;
-}*/
+form {
+	margin: 1.5rem 1rem;
+}
 
-button {
+form button {
 	margin-top: 20px;
+}
+
+.btn-primary {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+}
+
+.btn-primary:hover {
+	background-color: #377f7c;
+	border-color: #377f7c;
 }
 
 /* Footer */
 
 footer {
 	color: #fff;
+	border-top: 3px solid #4aaaa5;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px;
+  background-color: #666;
 }
